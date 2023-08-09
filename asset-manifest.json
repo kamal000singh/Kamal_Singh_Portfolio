@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/Kamal_Singh_Portfolio/static/css/main.393082d5.css",
-    "main.js": "/Kamal_Singh_Portfolio/static/js/main.5b1aedd1.js",
+    "main.js": "/Kamal_Singh_Portfolio/static/js/main.d04dee92.js",
     "static/js/787.3b23829b.chunk.js": "/Kamal_Singh_Portfolio/static/js/787.3b23829b.chunk.js",
-    "static/media/kamal_singh_resume.pdf": "/Kamal_Singh_Portfolio/static/media/kamal_singh_resume.32ebe8af191a11d025d3.pdf",
+    "static/media/kamal_singh_resume.pdf": "/Kamal_Singh_Portfolio/static/media/kamal_singh_resume.2decc285832a1743637c.pdf",
     "static/media/web-removebg-preview.png": "/Kamal_Singh_Portfolio/static/media/web-removebg-preview.9fed7f1d0b7ca01038fd.png",
     "static/media/Web-designer-1024x821.webp": "/Kamal_Singh_Portfolio/static/media/Web-designer-1024x821.6e57f7f5669037a83b03.webp",
     "static/media/deno.svg": "/Kamal_Singh_Portfolio/static/media/deno.04aa2c4dc756e5c4e0b671aed1a69491.svg",
@@ -86,11 +86,11 @@
     "static/media/vuetifyjs.svg": "/Kamal_Singh_Portfolio/static/media/vuetifyjs.3848fcff351a0cbc94e75362594d2b25.svg",
     "static/media/bulma.svg": "/Kamal_Singh_Portfolio/static/media/bulma.12ecb7941234000a2fe38a48cbce30da.svg",
     "main.393082d5.css.map": "/Kamal_Singh_Portfolio/static/css/main.393082d5.css.map",
-    "main.5b1aedd1.js.map": "/Kamal_Singh_Portfolio/static/js/main.5b1aedd1.js.map",
+    "main.d04dee92.js.map": "/Kamal_Singh_Portfolio/static/js/main.d04dee92.js.map",
     "787.3b23829b.chunk.js.map": "/Kamal_Singh_Portfolio/static/js/787.3b23829b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.393082d5.css",
-    "static/js/main.5b1aedd1.js"
+    "static/js/main.d04dee92.js"
   ]
 }
