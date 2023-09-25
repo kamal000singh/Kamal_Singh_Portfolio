@@ -45,7 +45,8 @@ const ContactMe = () => {
       </SocialMedia>
       <Footer>
         <p className="copyright">
-          © Copyright 2023 | Designed & Built by <span>Kamal Singh</span>
+          © Copyright {new Date(Date.now()).getFullYear()} | Designed & Built by{" "}
+          <span>Kamal Singh</span>
         </p>
       </Footer>
     </ContactComponents>

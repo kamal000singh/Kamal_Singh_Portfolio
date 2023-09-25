@@ -1,31 +1,27 @@
 export const education = [
   {
-    name: "High School",
     durations: { start: "April 2011", end: "April 2012" },
-    position: "",
-    languages: "",
-    description: "",
+    instituteName: "Maharshi Vidya Mandir Public School",
+    boardName: "CBSE Board",
+    standard: "10th",
   },
   {
-    name: "Intermediate School",
     durations: { start: "April 2012", end: "May 2014" },
-    position: "",
-    languages: "",
-    description: "",
+    instituteName: "Maharshi Vidya Mandir Public School",
+    boardName: "CBSE Board",
+    standard: "12th",
   },
   {
-    name: "Govt. Polytechnic Kotdwara",
     durations: { start: "June 2014", end: "July 2017" },
-    position: "",
-    languages: "",
-    description: "",
+    instituteName: "Govt. Polytechnic Kotdwara",
+    boardName: "UBTER",
+    standard: "Diploma",
   },
   {
-    name: "Bachelor of Computer Applications",
     durations: { start: "Aug 2019", end: "July 2022" },
-    position: "Graduation",
-    languages: "",
-    description: "",
+    instituteName: "Chandigarh Group of College, Jhanjeri",
+    boardName: "PTU",
+    standard: "BCA",
   },
 ];
 export const experience = [

@@ -2,6 +2,7 @@ import React from "react";
 import { styled } from "styled-components";
 import Media from "../theme/media-breackpoint";
 import { experience, education } from "../data/CareerData";
+import { skillsData } from "../data/SkillsData";
 
 const Career = () => {
   return (
@@ -14,10 +15,12 @@ const Career = () => {
             {education.map((info, key) => (
               <div className="route" data-aos="zoom-out" key={key}>
                 <div className="eduction_box">
-                  <span className="h1">{info.name}</span>
+                  <span className="h1">{info.instituteName}</span>
                   <span className="date">
                     {info.durations.start}-{info.durations.end}
-                  </span>
+                    <br />
+                    {info.standard} - {info.boardName}
+                  </span>{" "}
                 </div>
               </div>
             ))}
@@ -52,7 +55,7 @@ const CareerComponents = styled.section`
   min-height: 100vh;
   max-width: 100%;
   display: flex;
-  padding: 5% 5%;
+  padding: 0% 5%;
   overflow: hidden;
   align-items: center;
   background-color: #009999;
@@ -80,16 +83,31 @@ const CareerDes = styled.div`
       border-bottom: 1px solid #fff;
     }
     .eduction_box {
+      margin-bottom: 20px;
       display: flex;
       justify-content: space-between;
-      margin-bottom: 20px;
       .h1 {
-        font-size: 1.5em;
+        font-size: 1.2rem;
         font-weight: bold;
       }
       .date {
         width: 180px;
         text-align: end;
+      }
+    }
+    .skills {
+      width: 100%;
+      ${"" /* overflow-x: auto; */}
+      display:flex;
+      flex-wrap: wrap;
+      align-items: center;
+      margin: 2% 0%;
+
+      span {
+        padding: 0.5% 2%;
+        margin: 1%;
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 10px;
       }
     }
   }
@@ -126,7 +144,7 @@ const CareerDes = styled.div`
       justify-content: space-between;
 
       .h1 {
-        font-size: 1.5em;
+        font-size: 1.2em;
         font-weight: bold;
       }
       .date {

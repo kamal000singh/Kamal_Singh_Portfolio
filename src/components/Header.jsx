@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import { BsList } from "react-icons/bs";
 import Media from "../theme/media-breackpoint";
-import Resume from "../kamal_singh_resume.pdf";
 import { useState } from "react";
 const Header = () => {
   const [dropdown, setdropdown] = useState(false);
@@ -27,7 +26,14 @@ const Header = () => {
             <li>
               <a href="#contact">Contact</a>
             </li>
-            <a className="button" href={Resume} download>
+            <a
+              className="button"
+              href={
+                "https://drive.google.com/file/d/1gXVK58eObLbmRUDpX3x3Dsknb4g7n14e/view?usp=sharing"
+              }
+              target="_blank"
+              rel="noreferrer"
+            >
               Resume
             </a>
           </ul>
@@ -57,7 +63,14 @@ const Header = () => {
               <a href="#contact">
                 <li>CONTACT</li>
               </a>
-              <a className="button" href={Resume} download>
+              <a
+                className="button"
+                href={
+                  "https://drive.google.com/file/d/1gXVK58eObLbmRUDpX3x3Dsknb4g7n14e/view?usp=sharing"
+                }
+                target="_blank"
+                rel="noreferrer"
+              >
                 <button>RESUME</button>
               </a>
             </ul>

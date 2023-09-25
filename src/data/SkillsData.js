@@ -6,92 +6,108 @@ export const skillsData = [
   "Redux",
   "Express",
   "Node",
-  "MongoDB",
-  "Git",
   "Bootstrap",
+  "Git",
+  "MongoDB",
+  // "Tailwind",
 ];
-
+export const skillsData1 = {
+  FrontEnd: [
+    { title: "HTML", rating: 4 },
+    { title: "CSS", rating: 3.8 },
+    { title: "Javascript", rating: 4 },
+    { title: "React", rating: 4.1 },
+    { title: "Redux", rating: 3.8 },
+    { title: "Bootstrap", rating: 4.2 },
+  ],
+  BackEnd: [
+    { title: "Node", rating: 3.8 },
+    { title: "Express", rating: 4 },
+  ],
+  DataBase: [{ title: "MongoDB", rating: 3.6 }],
+};
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
 
 // AVAILABLE SKILLS
 
 /* 
-    HTML
-    CSS
-    JS 
-    React
-    Next JS
-    Nuxt JS
-    Node JS
-    Vue
-    Angular
-    Docker
-    Photoshop
-    Illustrator
-    Svelte
-    GCP
-    Azure
-    Fastify
-    Haxe
-    Ionic
-    Markdown
-    Microsoft Office
-    Picsart
-    Sketch
-    Unity
-    WolframAlpha
-    Adobe XD
-    After Effects
-    Bootstrap
-    Bulma
-    CapacitorJs
-    Coffeescript
-    MemSQL
-    C
-    C++
-    C#
-    Python
-    Java
-    Julia
-    Matlab
-    Swift
-    Ruby
-    Kotlin
-    Go
-    PHP
-    Flutter
-    Dart
-    Typescript
-    Swift
-    Git
-    Figma
-    Canva
-    Ubuntu
-    Bootstrap
-    MongoDB
-    Tailwind
-    ViteJS
-    VuetifyJS
-    MySQL
-    PostgreSQL
-    AWS
-    Firebase
-    Blender
-    Premiere Pro
-    Adobe Audition
-    Deno
-    Django
-    Gimp
-    Graphql
-    Lightroom
-    MaterialUI
-    Nginx
-    Numpy
-    OpenCV
-    Pytorch
-    Selenium
-    Strapi
-    Tensorflow
-    Webex
-    Wordpress
+    "Redux",
+  "Express",
+  "HTML",
+  "CSS",
+  "Javascript",
+  "React",
+  "Next JS",
+  "Nuxt JS",
+  "Node",
+  "Vue",
+  "Angular",
+  "Docker",
+  "Photoshop",
+  "Illustrator",
+  "Svelte",
+  "GCP",
+  "Azure",
+  "Fastify",
+  "Haxe",
+  "Ionic",
+  "Markdown",
+  "Microsoft Office",
+  "Picsart",
+  "Sketch",
+  "Unity",
+  "WolframAlpha",
+  "Adobe XD",
+  "After Effects",
+  "Bootstrap",
+  "Bulma",
+  "CapacitorJs",
+  "Coffeescript",
+  "MemSQL",
+  "C",
+  "C++",
+  "C#",
+  "Python",
+  "Java",
+  "Julia",
+  "Matlab",
+  "Swift",
+  "Ruby",
+  "Kotlin",
+  "Go",
+  "PHP",
+  "Flutter",
+  "Dart",
+  "Typescript",
+  "Swift",
+  "Git",
+  "Figma",
+  "Canva",
+  "Ubuntu",
+  "MongoDB",
+  "Tailwind",
+  "ViteJS",
+  "VuetifyJS",
+  "MySQL",
+  "PostgreSQL",
+  "AWS",
+  "Firebase",
+  "Blender",
+  "Premiere Pro",
+  "Adobe Audition",
+  "Deno",
+  "Django",
+  "Gimp",
+  "Graphql",
+  "Lightroom",
+  "MaterialUI",
+  "Nginx",
+  "Numpy",
+  "OpenCV",
+  "Pytorch",
+  "Selenium",
+  "Strapi",
+  "Tensorflow",
+  "Webex",
+  "Wordpress",
 */
